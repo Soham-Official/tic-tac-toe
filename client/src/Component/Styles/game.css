@@ -1,0 +1,110 @@
+#Board {
+  margin-top: 13vh;
+}
+#Board_game {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around !important;
+}
+.playername {
+  font-size: 1.7vw;
+  color: #6ec72d;
+}
+/* body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  } */
+
+/* ol,
+ul {
+  padding-left: 30px;
+} */
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  color: wheat;
+  font-size: 2vw;
+  margin-top: 5vh;
+}
+
+.square {
+  color: black;
+  background: transparent;
+  color: wheat;
+  border: 2px solid greenyellow;
+  float: left;
+  font-size: 3.5vw;
+  font-weight: bold;
+  line-height: 34px;
+  height: 6.5vw;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 6.5vw;
+}
+@media only screen and (max-width: 768px) {
+  .square {
+    height: 20vw;
+    width: 20vw;
+    font-size: 10vw;
+  }
+  .status {
+    font-size: 5vw;
+  }
+  .playername {
+    font-size: 4.7vw;
+  }
+  .btn-lg {
+    font-size: 2.3vw;
+  }
+}
+@media only screen and (width: 1024px) {
+  .square {
+    height: 20vw;
+    width: 20vw;
+    font-size: 10vw;
+  }
+  .status {
+    font-size: 6vw;
+  }
+  .playername {
+    font-size: 5.5vw;
+  }
+}
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  width: min-content;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+/* .input-button {
+  background-color: #81cc00;
+  font-size: 1.3rem;
+  padding: 13px;
+  color: white;
+  margin: 25px 0px;
+  margin-right: 10px;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+} */

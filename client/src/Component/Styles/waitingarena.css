@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
+.waiting {
+  color: white;
+  margin-top: 30vh;
+}
+.waitingMessage {
+  font-size: 1.25vw;
+  padding-left: 30px;
+  font-family: "Otomanopee One", sans-serif;
+}
+.roomId {
+  font-size: 3vw;
+  color: #3dbe29;
+  font-family: "Poppins", sans-serif;
+}
+.copymsg {
+  font-size: 1vw;
+  color: #edbf69;
+  font-family: "Encode Sans SC", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .waitingMessage {
+    font-size: 3vw;
+  }
+  .roomId {
+    font-size: 8vw;
+  }
+  .copymsg {
+    font-size: 2.5vw;
+  }
+}
